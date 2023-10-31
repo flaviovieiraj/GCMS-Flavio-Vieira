@@ -16,10 +16,10 @@ public class HomeController {
 	public @ResponseBody String greetingFlavio() {
 		return "Hello, Flavio!";
 	}
-
-	@RequestMapping("/main")
-	public @ResponseBody String greetingMain() {
-		return "main";
+	
+	@RequestMapping("/hotfix")
+	public @ResponseBody String greetingHotfix() {
+		return "hotfix";
 	}
 
 }
